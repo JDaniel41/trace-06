@@ -69,7 +69,7 @@ function QuestionCard({ answeredCallback, questionNum }) {
     }, [questionNum]);
 
     return (
-        <div className="w-1/2 xl:w-3/4 p-5 self-center">
+        <div className=" xl:w-1/4 p-5 self-center">
             {questionIsReady ? displayQuestion() : displayLoadingScreen()}
         </div>
     );
